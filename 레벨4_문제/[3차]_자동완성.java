@@ -1,3 +1,5 @@
+package 레벨4_문제;
+
 import java.util.*;
 
 class Solution {
