@@ -7,6 +7,7 @@ public class 다단계_칫솔_판매 {
     public int[] solution(String[] enroll, String[] referral, String[] seller, int[] amount) {
         Map<String, String> relation = new HashMap<>();
         Map<String, int[]> revenu = new HashMap<>();
+        
         for(int i=0; i < enroll.length; i++){
             String superiorGuy = referral[i].equals("-") ? "center" : referral[i];
             relation.put(enroll[i], superiorGuy);
