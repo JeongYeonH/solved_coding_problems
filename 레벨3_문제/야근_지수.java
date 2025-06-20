@@ -12,7 +12,7 @@ public class 야근_지수 {
         Arrays.sort(works);
         int [] reversedWorks = new int[works.length];
         for(int i = 0; i < works.length; i++){
-             reversedWorks[i] = works[works.length-1 - i];
+            reversedWorks[i] = works[works.length-1 - i];
         }
         int currIdx = 0;
         
