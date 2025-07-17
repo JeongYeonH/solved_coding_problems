@@ -10,7 +10,6 @@ public class 시소_짝궁 {
         long answer = 0;
                
         for(int weight : weights){
-
             for(int i = 0; i < parent.length; i++){
                 int par = parent[i];
                 if(weight%par != 0 ) continue;
@@ -26,7 +25,6 @@ public class 시소_짝궁 {
 
             if(map.containsKey(weight)){
                 int val = map.get(weight);
-                System.out.println(" ");
                 answer += val;
                 map.put(weight, val + 1);
             }else{
