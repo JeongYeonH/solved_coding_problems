@@ -46,7 +46,6 @@ public class 광물_캐기 {
                 pickers.add(i);
             }
         }
-        System.out.println(pickers);
         
         Map<Integer, int[]> mining = Map.of(
             0, new int[] {1, 1, 1},
