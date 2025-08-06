@@ -20,8 +20,7 @@ public class 주차_요금_계산 {
                     map.put(carNum, new int[] {infos[0], mins});
                 }else{
                     map.put(carNum, new int[] {0, mins});
-                }
-                              
+                }                           
             }else if(act.equals("OUT")){
                 int[] infos = map.get(carNum);
                 int usedTime = mins - infos[1];
