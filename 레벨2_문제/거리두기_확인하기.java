@@ -1,7 +1,6 @@
 package 레벨2_문제;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class 거리두기_확인하기 {
         
