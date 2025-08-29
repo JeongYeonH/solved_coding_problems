@@ -3,8 +3,7 @@ package 레벨3_문제;
 import java.util.PriorityQueue;
 
 public class 경주로_건설 {
-    public int solution(int[][] board) {
-               
+    public int solution(int[][] board) {             
         int row = board.length;
         int col = board[0].length;
         
@@ -12,8 +11,9 @@ public class 경주로_건설 {
         
         bfs(board, boardInfo, row, col);
         
-        int answer = Integer.MAX_VALUE;
         int[] lastBlock = boardInfo[row - 1][col - 1];
+        int answer = Integer.MAX_VALUE;
+        
         for(int i = 0; i < 4; i++){
             int k = lastBlock[i];
             
