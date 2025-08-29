@@ -3,7 +3,7 @@ package 레벨2_문제;
 import java.util.*;
 
 public class 오픈채팅방 {
-        public List<String> solution(String[] record) {
+    public List<String> solution(String[] record) {
         List<String> answer = new ArrayList<>();
         Map<String, String> map = new HashMap<>();
         
