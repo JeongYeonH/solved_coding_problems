@@ -7,6 +7,7 @@ public class 숫자의_표현 {
         
         arr[0] = 0;
         arr[1] = 1;
+        
         for(int i = 1; i < arr.length; i++){
             arr[i] = (i) + arr[i - 1];
         }
