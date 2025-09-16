@@ -24,8 +24,7 @@ public class 미로_탈출_명령어 {
             if(curr[0] == end[0] && curr[1] == end[1]){
                 found = true;
                 answer = sb.toString();
-                return;
-                
+                return;            
             }
             return;
         }
