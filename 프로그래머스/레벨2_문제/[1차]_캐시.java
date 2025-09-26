@@ -3,7 +3,7 @@ package 레벨2_문제;
 import java.util.*;
 
 class Solution {
-        public int solution(int cacheSize, String[] cities) {
+    public int solution(int cacheSize, String[] cities) {
         int answer = 0;
         Map<String, Integer> map = new HashMap<>();
         for(String tempCity : cities){
