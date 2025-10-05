@@ -4,8 +4,7 @@ import java.util.*;
 
 class Solution {
     public String[] solution(String[] files) {
-        String[] answer = new String[files.length];
-        
+        String[] answer = new String[files.length];       
         PriorityQueue<String[]> pQ = new PriorityQueue<>((a, b) ->{
             int cmp = a[0].compareToIgnoreCase(b[0]);
             
