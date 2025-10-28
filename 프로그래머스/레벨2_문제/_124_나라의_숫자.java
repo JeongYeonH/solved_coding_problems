@@ -7,6 +7,7 @@ public class _124_나라의_숫자 {
         while(n > 0){
             int num = n%3;
             
+
             if(num == 0){
                 answer.append(4);
                 n = n/3 - 1;
